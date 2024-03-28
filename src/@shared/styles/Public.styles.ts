@@ -86,6 +86,10 @@ export const NormalText = styled.p`
 `;
 
 export const FailText = styled.span`
-  ${`flex items-center font-medium tracking-wide text-red-500 text-xs mt-1 ml-1`}
+  ${tw`flex items-center font-medium tracking-wide text-red-500 text-xs mt-1 ml-1`}
 `;
 export const Span = styled.span``;
+
+export const BoldText = styled.p`
+  ${tw`text-base font-bold`}
+`;
